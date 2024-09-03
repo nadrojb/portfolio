@@ -43,6 +43,7 @@ body {
   font-size: 1.2rem;
   font-weight: 600;
   padding: 1rem 3.6rem;
+  margin-top: 2rem;
 }
 
 .standard-button:hover {
@@ -80,9 +81,22 @@ body {
 }
 
 .h3-text {
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   margin-bottom: 2rem;
-  margin-top: 0;
+  margin: 0 0 2rem 0;
+}
+
+.h2-text {
+  font-size: 2.5rem;
+  letter-spacing: 0.2rem;
+  margin: 0 0 1.5rem 0;
+}
+
+.h4-text {
+  font-size: 1.5rem;
+  letter-spacing: 0.04rem;
+  font-weight: 600;
+  padding-left: 1rem;
 }
 /* NAV BAR */
 
@@ -111,18 +125,14 @@ nav .nav-links {
   color: #333;
 }
 
-.logo-text {
-  font-size: 1.4rem;
-  font-weight: 700;
-  padding-left: 1rem;
-}
-
 /* HERO SECTION */
 
 .hero {
   width: 100%;
   min-height: 500px;
   background-image: url(./img/background/background2.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
   padding-top: 180px;
 }
 
@@ -149,12 +159,6 @@ nav .nav-links {
   padding-bottom: 40px;
 }
 
-.about-me h2 {
-  font-size: 2.5rem;
-  letter-spacing: 0.3rem;
-  margin: 0 0 1.5rem 0;
-}
-
 .div-line {
   border-bottom: 3px solid #1649ff;
   border-radius: 5px;
@@ -163,7 +167,7 @@ nav .nav-links {
 }
 
 .about-me-header p {
-  margin: 1rem 0 4rem 0;
+  margin: 1rem 0 0 0;
 }
 
 .padding-left {
@@ -172,11 +176,6 @@ nav .nav-links {
 
 .padding-right {
   padding-right: 5rem;
-}
-
-.about-me-text h3 {
-  font-size: 1.3rem;
-  margin-bottom: 2rem;
 }
 
 .about-me button {
@@ -202,16 +201,11 @@ nav .nav-links {
 
 .project-section {
   padding-top: 80px;
-}
-
-.project-header h2 {
-  font-size: 2.5rem;
-  letter-spacing: 0.3rem;
-  margin: 0 0 1.5rem 0;
+  padding-bottom: 40px;
 }
 
 .project-header p {
-  margin: 1rem 0 6rem 0;
+  margin: 1rem 0 0 0;
 }
 
 .project-img {
@@ -224,14 +218,20 @@ nav .nav-links {
   border-radius: 5px;
 }
 
-.project-text p {
-  margin-bottom: 2rem;
-}
-
 .project-button-left {
   margin-right: 0.5rem;
 }
 
 .project-button-right {
   margin-left: 0.5rem;
+}
+
+/* CONTACT SECTION */
+
+.contact-section {
+  width: 100%;
+  background-image: url(./img/background/background2.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 100px;
 }
