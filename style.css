@@ -81,8 +81,22 @@ body {
   position: relative;
 }
 
-.absolute {
-  position: absolute;
+.absolute-topbtn {
+  position: fixed;
+  bottom: 10px;
+  font-size: 40px;
+  right: 2rem;
+  bottom: 2rem;
+}
+.absolute-topbtn:hover {
+  cursor: pointer;
+  transform: translatey(-5px);
+  transition: transform 0.2s ease;
+}
+
+.absolute-topbtn:active {
+  scale: 0.9;
+  transform: ease 0.5s;
 }
 
 .h3-text {
