@@ -126,6 +126,11 @@ body {
   font-size: 0.9rem;
 }
 
+a {
+  text-decoration: none;
+  color: white;
+}
+
 /* NAV BAR */
 
 nav {
@@ -156,6 +161,11 @@ nav .nav-links {
 .nav-links a {
   text-decoration: none;
   color: #333333;
+}
+
+.nav-links a:hover {
+  color: #1649ff;
+  transition: ease 0.3s;
 }
 
 /* HERO SECTION */
