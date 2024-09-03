@@ -258,3 +258,8 @@ footer {
 .border-bottom {
   border-bottom: 2px solid rgba(153, 153, 153, 0.2);
 }
+
+.copyright {
+  text-align: center;
+  font-size: 0.8rem;
+}
