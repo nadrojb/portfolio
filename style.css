@@ -9,7 +9,7 @@ body {
   align-items: center;
 }
 
-.flex-about-me {
+.flex-standard {
   display: flex;
 }
 .width-100 {
@@ -133,7 +133,7 @@ nav .nav-links {
   background-image: url(./img/background/background2.svg);
   background-repeat: no-repeat;
   background-size: cover;
-  padding-top: 180px;
+  padding: 11rem 0 4rem 0;
 }
 
 .hero h1 {
@@ -167,7 +167,7 @@ nav .nav-links {
 }
 
 .about-me-header p {
-  margin: 1rem 0 0 0;
+  margin: 1rem 0 5rem 0;
 }
 
 .padding-left {
@@ -205,7 +205,7 @@ nav .nav-links {
 }
 
 .project-header p {
-  margin: 1rem 0 0 0;
+  margin: 1rem 0 5rem 0;
 }
 
 .project-img {
@@ -234,4 +234,27 @@ nav .nav-links {
   background-repeat: no-repeat;
   background-size: cover;
   padding-top: 100px;
+  padding-bottom: 4rem;
+}
+
+/* FOOTER SECTION */
+
+footer {
+  background-color: black;
+  color: white;
+  min-height: 250px;
+  padding-top: 3rem;
+}
+
+.social-right {
+  padding-left: 25rem;
+  padding-bottom: 4rem;
+}
+
+.social-left {
+  padding-right: 5rem;
+}
+
+.border-bottom {
+  border-bottom: 2px solid rgba(153, 153, 153, 0.2);
 }
