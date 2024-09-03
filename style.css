@@ -8,6 +8,10 @@ body {
   display: flex;
   align-items: center;
 }
+
+.flex-projects {
+  display: flex;
+}
 .width-100 {
   width: 100%;
 }
@@ -41,6 +45,16 @@ body {
   padding: 1rem 3.6rem;
 }
 
+.standard-button:hover {
+  cursor: pointer;
+  transform: translatey(-5px);
+  transition: transform 0.2s ease;
+}
+.standard-button:active {
+  scale: 0.9;
+  transform: 0.5 ease;
+}
+
 .align-navbar {
   max-width: 100%;
   margin: 0 auto;
@@ -63,6 +77,12 @@ body {
 
 .absolute {
   position: absolute;
+}
+
+.h3-text {
+  font-size: 1.3rem;
+  margin-bottom: 2rem;
+  margin-top: 0;
 }
 /* NAV BAR */
 
@@ -192,4 +212,16 @@ nav .nav-links {
 
 .project-header p {
   margin: 1rem 0 4rem 0;
+}
+
+.project-img {
+  width: 100%;
+}
+
+.project-img img {
+  width: 500px;
+  border: 0;
+  border-radius: 5px;
+}
+.project-text h3 {
 }
