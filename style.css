@@ -6,7 +6,7 @@ body {
 
 .flex {
   display: flex;
-  align-items: baseline;
+  align-items: center;
 }
 .width-100 {
   width: 100%;
@@ -20,6 +20,7 @@ body {
   margin: 0 auto;
   max-width: 100%;
   width: 1200px;
+  padding: 0 1rem;
 }
 
 .heading-align {
@@ -93,6 +94,7 @@ nav .nav-links {
 .logo-text {
   font-size: 1.4rem;
   font-weight: 700;
+  padding-left: 1rem;
 }
 
 /* HERO SECTION */
@@ -124,6 +126,7 @@ nav .nav-links {
 .about-me {
   background-color: #fafafa;
   padding-top: 80px;
+  padding-bottom: 40px;
 }
 
 .about-me h2 {
@@ -173,4 +176,20 @@ nav .nav-links {
 
 .no-left-margin {
   margin-left: 0;
+}
+
+/* PROJECTS SECTION */
+
+.project-section {
+  padding-top: 80px;
+}
+
+.project-header h2 {
+  font-size: 2.5rem;
+  letter-spacing: 0.3rem;
+  margin: 0 0 1.5rem 0;
+}
+
+.project-header p {
+  margin: 1rem 0 4rem 0;
 }
