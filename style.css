@@ -14,14 +14,12 @@ body {
 .column-align {
   max-width: 100%;
   width: 600px;
-  padding: 0 1rem;
 }
 
-.wide-align {
+.container-align {
   margin: 0 auto;
   max-width: 100%;
   width: 1200px;
-  padding: 0 1rem;
 }
 
 .heading-align {
@@ -39,7 +37,7 @@ body {
   box-shadow: 0 5px 15px 0 rgba (0, 0, 0, 0.15);
   font-size: 1.2rem;
   font-weight: 600;
-  padding: 1rem 4rem;
+  padding: 1rem 3.6rem;
 }
 
 .align-navbar {
@@ -125,12 +123,13 @@ nav .nav-links {
 
 .about-me {
   background-color: #fafafa;
-  padding-top: 100px;
+  padding-top: 80px;
 }
 
 .about-me h2 {
   font-size: 2.5rem;
   letter-spacing: 0.3rem;
+  margin: 0 0 1.5rem 0;
 }
 
 .div-line {
@@ -138,4 +137,40 @@ nav .nav-links {
   border-radius: 5px;
   width: 3%;
   margin: 0 auto;
+}
+
+.about-me-header p {
+  margin: 1rem 0 4rem 0;
+}
+
+.padding-left {
+  padding-left: 4rem;
+}
+
+.padding-right {
+  padding-right: 5rem;
+}
+
+.about-me-text h3 {
+  font-size: 1.3rem;
+  margin-bottom: 2rem;
+}
+
+.about-me button {
+  margin-top: 2rem;
+}
+
+.skill {
+  background-color: rgba(153, 153, 153, 0.2);
+  display: inline-block;
+  padding: 0.8rem 1.6rem;
+  border: 0;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: 500;
+  margin: 0.5rem;
+}
+
+.no-left-margin {
+  margin-left: 0;
 }
