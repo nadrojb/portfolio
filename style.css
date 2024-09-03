@@ -1,5 +1,6 @@
 body {
-  font-family: "Source Code Pro", monospace;
+  font-family: "Source Sans 3", sans-serif;
+
   width: 100%;
 }
 
@@ -11,13 +12,39 @@ body {
   width: 100%;
 }
 
-/* NAV BAR */
+.center-align {
+  margin: 0 auto;
+  max-width: 100%;
+  width: 900px;
+  text-align: center;
+  padding: 0 1rem;
+}
+.standard-button {
+  background-color: #1649ff;
+  border: 0;
+  border-radius: 5px;
+  color: white;
+  box-shadow: 0 5px 15px 0 rgba (0, 0, 0, 0.15);
+  font-size: 1.2rem;
+  font-weight: 600;
+  padding: 1rem 4rem;
+}
+
 .align-navbar {
   max-width: 100%;
   margin: 0 auto;
   width: 1200px;
-
+  padding: 0 1rem;
   justify-content: space-between;
+}
+
+/* NAV BAR */
+
+nav {
+  background-color: white;
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.05);
+  position: fixed;
+  width: 100%;
 }
 
 nav h4 {
@@ -34,4 +61,41 @@ nav .nav-links {
 
 .nav-links li {
   padding: 2rem;
+}
+
+.logo-text {
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+/* HERO SECTION */
+
+.hero {
+  width: 100%;
+  min-height: 500px;
+  background-image: url(./img/background/background2.svg);
+  padding-top: 180px;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  letter-spacing: 0.2rem;
+}
+
+.hero p {
+  max-width: 100%;
+  width: 650px;
+  margin: 0 auto;
+  line-height: 2rem;
+  margin-bottom: 2rem;
+}
+
+.hero button {
+  margin: 0 0.2rem 0 0.2rem;
+}
+
+.hero button:hover {
+  cursor: pointer;
+  transform: translatey(-5px);
+  transition: transform 0.2s ease;
 }
