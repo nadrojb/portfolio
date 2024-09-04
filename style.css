@@ -415,7 +415,18 @@ nav .nav-links {
 
 /* CONTACT SECTION */
 
-.contact-section {
+.contact-desktop {
+  width: 100%;
+  background-image: url(./img/background/background2.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 6.25rem;
+  padding-bottom: 4rem;
+}
+
+/* CONTACT SECTION MOBILE */
+.contact-mobile {
+  display: none;
   width: 100%;
   background-image: url(./img/background/background2.svg);
   background-repeat: no-repeat;
@@ -507,7 +518,17 @@ i:hover {
   .project-text p {
     margin-top: 3rem;
   }
+  .contact-desktop {
+    display: none;
+  }
+
+  .contact-mobile {
+    display: block;
+  }
 }
 
 @media screen and (max-width: 768px) {
+  .project-img img {
+    width: 70%;
+  }
 }
