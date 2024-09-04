@@ -23,6 +23,10 @@ body {
   text-align: end;
 }
 
+.start-text {
+  text-align: start;
+}
+
 .flex-standard {
   display: flex;
 }
@@ -62,7 +66,7 @@ body {
 
 .standard-button:hover {
   cursor: pointer;
-  transform: translatey(-2px);
+  transform: translatey(-2.5px);
   transition: transform 0.2s ease;
 }
 .standard-button:active {
@@ -217,6 +221,10 @@ a .mobile-button {
   margin-top: 2rem;
 }
 
+a .mobile-button:hover {
+  cursor: pointer;
+}
+
 .mobile-p {
   font-size: 1rem;
 }
@@ -310,12 +318,6 @@ nav .nav-links {
 
 .hero button {
   margin: 0 0.2rem 0 0.2rem;
-}
-
-.hero button:hover {
-  cursor: pointer;
-  transform: translatey(-5px);
-  transition: transform 0.2s ease;
 }
 
 /* MOBILE HERO SECTION */
@@ -493,6 +495,16 @@ i:hover {
 
 /* MEDIA QUERY SECTION */
 
+@media screen and (max-width: 1220px) {
+  .about-me-desktop {
+    display: none;
+  }
+
+  .about-me-tablet {
+    display: block;
+  }
+}
+
 @media screen and (max-width: 1024px) {
   .absolute-topbtn {
     display: none;
@@ -506,14 +518,6 @@ i:hover {
 
   .side-icons {
     display: none;
-  }
-
-  .about-me-desktop {
-    display: none;
-  }
-
-  .about-me-tablet {
-    display: block;
   }
 
   .hero {
