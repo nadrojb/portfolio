@@ -8,6 +8,8 @@ body {
   width: 100%;
 }
 
+/* STANDARDISED CSS SELECTORS DESKTOP */
+
 .flex {
   display: flex;
   align-items: center;
@@ -144,6 +146,24 @@ a {
   color: white;
 }
 
+/* STANDARDISED CSS SELECTORS TABLET */
+
+.tablet-block {
+  display: block;
+}
+
+.tablet-align {
+  margin: 0 auto;
+  max-width: 100%;
+  width: 900px;
+  text-align: center;
+  padding: 0 1rem;
+}
+
+.margin-top-4 {
+  margin-top: 4rem;
+}
+
 /* NAV BAR */
 
 nav {
@@ -234,6 +254,9 @@ nav .nav-links {
 
 /* ABOUT ME SECTION */
 
+.about-me-tablet {
+  display: none;
+}
 .about-me {
   background-color: #fafafa;
   padding-top: 5rem;
@@ -274,8 +297,17 @@ nav .nav-links {
   margin: 0.5rem;
 }
 
-.no-left-margin {
+.no-margin-left {
   margin-left: 0;
+}
+
+.flex-skills {
+  display: flex;
+}
+
+/* ABOUT ME TABLET SECTION */
+
+.flex-tablet {
 }
 
 /* PROJECTS SECTION */
@@ -324,7 +356,7 @@ footer {
   background-color: black;
   color: white;
   min-height: 250px;
-  padding: 3rem 0 0.5rem 0;
+  padding: 3rem 0 0 0;
 }
 
 .footer-right {
@@ -354,4 +386,19 @@ i:hover {
 }
 .icon-left {
   margin-right: 0.2rem;
+}
+
+/* MEDIA QUERY SECTION */
+
+@media screen and (max-width: 1024px) {
+  .absolute-topbtn {
+    font-size: 1.5rem;
+  }
+  .about-me-desktop {
+    display: none;
+  }
+
+  .about-me-tablet {
+    display: block;
+  }
 }
