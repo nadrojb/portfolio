@@ -495,7 +495,7 @@ i:hover {
 
 @media screen and (max-width: 1024px) {
   .absolute-topbtn {
-    font-size: 1.5rem;
+    display: none;
   }
   .nav-desktop {
     display: none;
