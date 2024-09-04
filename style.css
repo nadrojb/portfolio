@@ -394,6 +394,10 @@ i:hover {
   .absolute-topbtn {
     font-size: 1.5rem;
   }
+  .nav-desktop {
+    display: none;
+  }
+
   .about-me-desktop {
     display: none;
   }
