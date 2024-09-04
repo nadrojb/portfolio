@@ -462,6 +462,10 @@ footer {
   font-size: 0.8rem;
 }
 
+.copyright p {
+  margin: 0;
+}
+
 i:hover {
   cursor: pointer;
 }
