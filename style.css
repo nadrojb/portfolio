@@ -100,6 +100,12 @@ body {
   transform: ease 0.5s;
 }
 
+.h1-desktop {
+  font-size: 3.5rem;
+  letter-spacing: 0.2rem;
+  font-weight: 850;
+}
+
 .h3-text {
   font-size: 1.75rem;
   margin-bottom: 2rem;
@@ -146,7 +152,11 @@ a {
   color: white;
 }
 
-/* STANDARDISED CSS SELECTORS TABLET */
+.hero-padding-desktop {
+  padding: 11rem 0 4rem 0;
+}
+
+/* STANDARDISED CSS SELECTORS TABLET/MOBILE */
 
 .tablet-block {
   display: block;
@@ -164,11 +174,37 @@ a {
   margin-top: 4rem;
 }
 
+.margin-bottom-05 {
+  margin-bottom: 0.5rem;
+}
+
 .padding-topbottom-04 {
   padding: 0.4rem 0;
 }
 
-/* STANDARDISED CSS MOBILE */
+.h1-mobile {
+  font-size: 2.5rem;
+}
+
+.hero-padding-mobile {
+  padding: 7rem 0 4rem 0;
+}
+
+.mobile-button {
+  background-color: #1649ff;
+  border: 0;
+  border-radius: 5px;
+  color: white;
+  box-shadow: 0 5px 15px 0 rgba (0, 0, 0, 0.15);
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 0.7rem 2.6rem;
+  margin-top: 2rem;
+}
+
+.mobile-p {
+  font-size: 1rem;
+}
 
 /* NAV BAR */
 
@@ -239,14 +275,13 @@ nav .nav-links {
   background-image: url(./img/background/background2.svg);
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 11rem 0 4rem 0;
 }
 
-.hero h1 {
+/* .hero h1 {
   font-size: 3.5rem;
   letter-spacing: 0.2rem;
   font-weight: 850;
-}
+} */
 
 .hero p {
   font-size: 1.2rem;
@@ -260,6 +295,12 @@ nav .nav-links {
   cursor: pointer;
   transform: translatey(-5px);
   transition: transform 0.2s ease;
+}
+
+/* MOBILE HERO SECTION */
+
+.hero-mobile {
+  display: none;
 }
 
 /* ABOUT ME SECTION */
@@ -421,7 +462,15 @@ i:hover {
   }
 
   .hero {
-    min-height: 400px;
-    padding: 9rem 0 4rem 0;
+    min-height: 300px;
   }
+  .hero-desktop {
+    display: none;
+  }
+  .hero-mobile {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 768px) {
 }
