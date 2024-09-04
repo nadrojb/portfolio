@@ -19,6 +19,10 @@ body {
   text-align: center;
 }
 
+.end-text {
+  text-align: end;
+}
+
 .flex-standard {
   display: flex;
 }
@@ -157,6 +161,14 @@ a {
 
 .hero-padding-desktop {
   padding: 11rem 0 4rem 0;
+}
+
+.width-30 {
+  width: 30%;
+}
+
+.width-70 {
+  width: 70%;
 }
 
 /* STANDARDISED CSS SELECTORS TABLET/MOBILE */
@@ -445,12 +457,13 @@ footer {
 }
 
 .footer-right {
-  padding-left: 25rem;
+  width: 30%;
   padding-bottom: 4rem;
+  padding-left: 6rem;
 }
 
 .footer-left {
-  padding-right: 5rem;
+  width: 70%;
 }
 
 .border-bottom {
@@ -460,6 +473,7 @@ footer {
 .copyright {
   text-align: center;
   font-size: 0.8rem;
+  margin-top: 2rem;
 }
 
 .copyright p {
@@ -533,6 +547,6 @@ i:hover {
 
 @media screen and (max-width: 768px) {
   .project-img img {
-    width: 70%;
+    width: 66%;
   }
 }
