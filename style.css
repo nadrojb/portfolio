@@ -164,7 +164,7 @@ a {
 }
 
 .hero-padding-desktop {
-  padding: 11rem 0 4rem 0;
+  padding: 14rem 0 4rem 0;
 }
 
 .width-30 {
@@ -291,6 +291,10 @@ nav .nav-links {
   border: 0;
   border-radius: 0 5px 5px 0;
 }
+.icon-position:hover {
+  scale: 1.5;
+  left: 0.8rem;
+}
 
 .side-icons a {
   margin: 0.5rem;
@@ -300,7 +304,7 @@ nav .nav-links {
 
 .hero {
   width: 100%;
-  min-height: 600px;
+  min-height: 670px;
   background-image: url(./img/background/background2.svg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -557,5 +561,8 @@ i:hover {
 @media screen and (max-width: 768px) {
   .project-img img {
     width: 66%;
+  }
+  .skill5 {
+    margin-left: 0;
   }
 }
