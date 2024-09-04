@@ -164,8 +164,8 @@ a {
   margin-top: 4rem;
 }
 
-.margin-topbottom-1 {
-  margin: 1rem 0;
+.padding-topbottom-04 {
+  padding: 0.4rem 0;
 }
 
 /* STANDARDISED CSS MOBILE */
@@ -408,11 +408,20 @@ i:hover {
     display: flex;
   }
 
+  .side-icons {
+    display: none;
+  }
+
   .about-me-desktop {
     display: none;
   }
 
   .about-me-tablet {
     display: block;
+  }
+
+  .hero {
+    min-height: 400px;
+    padding: 9rem 0 4rem 0;
   }
 }
