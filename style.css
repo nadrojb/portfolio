@@ -83,8 +83,7 @@ body {
 
 .absolute-topbtn {
   position: fixed;
-  bottom: 10px;
-  font-size: 40px;
+  font-size: 2.5rem;
   right: 2rem;
   bottom: 2rem;
 }
@@ -237,8 +236,8 @@ nav .nav-links {
 
 .about-me {
   background-color: #fafafa;
-  padding-top: 80px;
-  padding-bottom: 40px;
+  padding-top: 5rem;
+  padding-bottom: 2.5rem;
 }
 
 .div-line {
@@ -282,8 +281,8 @@ nav .nav-links {
 /* PROJECTS SECTION */
 
 .project-section {
-  padding-top: 80px;
-  padding-bottom: 40px;
+  padding-top: 5rem;
+  padding-bottom: 2.5rem;
 }
 
 .project-header p {
@@ -315,7 +314,7 @@ nav .nav-links {
   background-image: url(./img/background/background2.svg);
   background-repeat: no-repeat;
   background-size: cover;
-  padding-top: 100px;
+  padding-top: 6.25rem;
   padding-bottom: 4rem;
 }
 
