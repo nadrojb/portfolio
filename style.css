@@ -205,7 +205,7 @@ a {
   padding: 7rem 0 4rem 0;
 }
 
-.mobile-button {
+a .mobile-button {
   background-color: #1649ff;
   border: 0;
   border-radius: 5px;
@@ -542,6 +542,11 @@ i:hover {
 
   .contact-mobile {
     display: block;
+  }
+  a .mobile-button:active {
+    scale: 0.95;
+    transform: 0.5 ease;
+    background-color: #1648ffda;
   }
 }
 
