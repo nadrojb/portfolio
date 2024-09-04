@@ -164,7 +164,17 @@ a {
   margin-top: 4rem;
 }
 
+.margin-topbottom-1 {
+  margin: 1rem 0;
+}
+
+/* STANDARDISED CSS MOBILE */
+
 /* NAV BAR */
+
+.nav-mobile {
+  display: none;
+}
 
 nav {
   background-color: white;
@@ -307,9 +317,6 @@ nav .nav-links {
 
 /* ABOUT ME TABLET SECTION */
 
-.flex-tablet {
-}
-
 /* PROJECTS SECTION */
 
 .project-section {
@@ -396,6 +403,9 @@ i:hover {
   }
   .nav-desktop {
     display: none;
+  }
+  .nav-mobile {
+    display: flex;
   }
 
   .about-me-desktop {
