@@ -164,7 +164,7 @@ a {
 }
 
 .hero-padding-desktop {
-  padding: 14rem 0 4rem 0;
+  padding: 35vh 0 4rem 0;
 }
 
 .width-30 {
@@ -288,7 +288,7 @@ nav .nav-links {
 
 .icon-position {
   position: absolute;
-  top: 19rem;
+  top: 50vh;
   left: 0;
   display: flex;
   flex-direction: column;
@@ -311,17 +311,11 @@ nav .nav-links {
 
 .hero {
   width: 100%;
-  min-height: 670px;
-  background-image: url(./img/background/background2.svg);
+  min-height: 100vh;
+  background-image: url(./img/background/background5.svg);
   background-repeat: no-repeat;
   background-size: cover;
 }
-
-/* .hero h1 {
-  font-size: 3.5rem;
-  letter-spacing: 0.2rem;
-  font-weight: 850;
-} */
 
 .hero p {
   font-size: 1.2rem;
@@ -446,7 +440,7 @@ nav .nav-links {
 
 .contact-desktop {
   width: 100%;
-  background-image: url(./img/background/background2.svg);
+  background-image: url(./img/background/background5.svg);
   background-repeat: no-repeat;
   background-size: cover;
   padding-top: 6.25rem;
@@ -457,7 +451,7 @@ nav .nav-links {
 .contact-mobile {
   display: none;
   width: 100%;
-  background-image: url(./img/background/background2.svg);
+  background-image: url(./img/background/background5.svg);
   background-repeat: no-repeat;
   background-size: cover;
   padding-top: 6.25rem;
@@ -529,7 +523,7 @@ i:hover {
   }
 
   .hero {
-    min-height: 300px;
+    min-height: 65vh;
   }
   .hero-desktop {
     display: none;
