@@ -421,6 +421,7 @@ nav .nav-links {
 
 .flex-languages {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .language {
