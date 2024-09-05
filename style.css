@@ -448,6 +448,12 @@ nav .nav-links {
   padding-bottom: 4rem;
 }
 
+.contact-links a {
+  color: #1649ff;
+  text-decoration: underline;
+  font-weight: 600;
+}
+
 /* CONTACT SECTION MOBILE */
 .contact-mobile {
   display: none;
