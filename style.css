@@ -434,6 +434,7 @@ nav .nav-links {
 
 .project-mobile {
   display: none;
+  padding-bottom: 2rem;
 }
 
 /* CONTACT SECTION */
@@ -454,7 +455,7 @@ nav .nav-links {
   background-image: url(./img/background/background5.svg);
   background-repeat: no-repeat;
   background-size: cover;
-  padding-top: 6.25rem;
+  padding-top: 4rem;
   padding-bottom: 4rem;
 }
 
