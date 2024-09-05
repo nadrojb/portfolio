@@ -557,15 +557,10 @@ i:hover {
     display: none;
   }
 
-  .hero {
-    min-height: 65vh;
+  .hero-padding-desktop {
+    padding: 28vh 0 4rem 0;
   }
-  .hero-desktop {
-    display: none;
-  }
-  .hero-mobile {
-    display: block;
-  }
+
   .about-me-desktop {
     display: none;
   }
@@ -613,5 +608,15 @@ i:hover {
   .footer-mobile {
     display: block;
     padding-top: 1rem;
+  }
+  .hero-desktop {
+    display: none;
+  }
+
+  .hero-mobile {
+    display: block;
+  }
+  .hero {
+    min-height: 65vh;
   }
 }
