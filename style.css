@@ -184,11 +184,11 @@ a {
 
 /* STANDARDISED CSS SELECTORS TABLET/MOBILE */
 
-.tablet-block {
+.mobile-block {
   display: block;
 }
 
-.tablet-align {
+.mobile-align {
   margin: 0 auto;
   max-width: 100%;
   width: 900px;
@@ -336,7 +336,7 @@ nav .nav-links {
 
 /* ABOUT ME SECTION */
 
-.about-me-tablet {
+.about-me-mobile {
   display: none;
 }
 .about-me {
@@ -391,8 +391,6 @@ nav .nav-links {
   display: flex;
 }
 
-/* ABOUT ME TABLET SECTION */
-
 /* PROJECTS SECTION */
 
 .project-desktop {
@@ -438,16 +436,13 @@ nav .nav-links {
   margin: 0 0.5rem 0.5rem 0;
 }
 
-/* PROJECT TABLET */
-
-.project-align-tablet {
-  .tablet-align {
+/* .project-align-tablet {
+  
     margin: 0 auto;
     max-width: 100%;
     width: 900px;
     padding: 0 1rem;
-  }
-}
+  } */
 
 /* PROJECT MOBILE */
 
@@ -569,7 +564,7 @@ i:hover {
     display: none;
   }
 
-  .about-me-tablet {
+  .about-me-mobile {
     display: block;
   }
 
