@@ -212,11 +212,11 @@ a {
 }
 
 .h1-mobile {
-  font-size: 2.7rem;
+  font-size: 3.5rem;
 }
 
 .hero-padding-mobile {
-  padding: 7rem 0 4rem 0;
+  padding: 12vh 0 4rem 0;
 }
 
 a .mobile-button {
@@ -228,7 +228,7 @@ a .mobile-button {
   font-size: 1rem;
   font-weight: 600;
   padding: 0.7rem 2.6rem;
-  margin-top: 2rem;
+  margin-top: 0.5rem;
 }
 
 a .mobile-button:hover {
@@ -332,6 +332,11 @@ nav .nav-links {
 
 .hero-mobile {
   display: none;
+  width: 100%;
+  min-height: 100vh;
+  background-image: url(./img/background/background5.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 /* ABOUT ME SECTION */
@@ -534,9 +539,6 @@ i:hover {
 
 /* MEDIA QUERY SECTION */
 
-@media screen and (max-width: 1220px) {
-}
-
 @media screen and (max-width: 1024px) {
   .absolute-topbtn {
     display: none;
@@ -552,12 +554,13 @@ i:hover {
     display: none;
   }
 
-  .hero-padding-desktop {
-    padding: 14vh 0 4rem 0;
+  .hero-desktop {
+    display: none;
   }
 
-  .hero {
-    min-height: 5vh;
+  .hero-mobile {
+    display: block;
+    min-height: 50vh;
   }
 
   .about-me-desktop {
@@ -614,6 +617,9 @@ i:hover {
 
   .hero-mobile {
     display: block;
-    min-height: 5vh;
+    min-height: 50vh;
+  }
+  .h1-mobile {
+    font-size: 2.7rem;
   }
 }
