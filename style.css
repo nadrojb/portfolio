@@ -112,6 +112,27 @@ body {
   transform: ease 0.5s;
 }
 
+.absolute-topbtn-mobile {
+  position: fixed;
+  font-size: 1.5rem;
+  right: 1rem;
+  bottom: 1rem;
+}
+.absolute-topbtn-mobile:hover {
+  cursor: pointer;
+  transform: translatey(-5px);
+  transition: transform 0.2s ease;
+}
+
+.absolute-topbtn-mobile:active {
+  scale: 0.9;
+  transform: ease 0.5s;
+}
+
+.absolute-topbtn-mobile {
+  display: none;
+}
+
 .h1-desktop {
   font-size: 3.5rem;
   letter-spacing: 0.2rem;
@@ -592,6 +613,9 @@ i:hover {
     scale: 0.95;
     transform: 0.5 ease;
     background-color: #1648ffda;
+  }
+  .absolute-topbtn-mobile {
+    display: block;
   }
 }
 
