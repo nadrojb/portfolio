@@ -336,7 +336,7 @@ nav .nav-links {
 .hero {
   width: 100%;
   min-height: 100vh;
-  background-image: url(./img/background/background5.svg);
+  background-image: url(./img/background/background6.svg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -355,7 +355,7 @@ nav .nav-links {
   display: none;
   width: 100%;
   min-height: 100vh;
-  background-image: url(./img/background/background5.svg);
+  background-image: url(./img/background/background6.svg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -481,11 +481,11 @@ nav .nav-links {
 
 .contact-desktop {
   width: 100%;
-  background-image: url(./img/background/background5.svg);
   background-repeat: no-repeat;
   background-size: cover;
   padding-top: 6.25rem;
   padding-bottom: 4rem;
+  background-color: #fafafa;
 }
 
 .contact-links a {
@@ -498,17 +498,17 @@ nav .nav-links {
 .contact-mobile {
   display: none;
   width: 100%;
-  background-image: url(./img/background/background5.svg);
   background-repeat: no-repeat;
   background-size: cover;
   padding-top: 4rem;
   padding-bottom: 4rem;
+  background-image: url(./img/background/background6.svg);
 }
 
 /* FOOTER SECTION */
 
 .footer-desktop {
-  background-color: black;
+  background-color: #1649ff;
   color: white;
   min-height: 250px;
   padding: 3rem 0 0 0;
@@ -552,7 +552,7 @@ i:hover {
 /* FOOTER MOBILE SECTION */
 .footer-mobile {
   display: none;
-  background-color: black;
+  background-color: #1649ff;
   color: white;
   min-height: 250px;
   padding: 3rem 0 0 0;
