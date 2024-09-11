@@ -3,7 +3,7 @@ html {
 }
 
 body {
-  font-family: "Chivo", sans-serif;
+  font-family: "Play", sans-serif;
 
   width: 100%;
 }
@@ -53,7 +53,7 @@ body {
   padding: 0 1rem;
 }
 .standard-button {
-  background-color: #1649ff;
+  background-color: #f7d4b2;
   border: 0;
   border-radius: 5px;
   color: white;
@@ -336,7 +336,7 @@ nav .nav-links {
 .hero {
   width: 100%;
   min-height: 100vh;
-  background-image: url(./img/background/background6.svg);
+  background-image: url(./img/background/background9.svg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -509,7 +509,7 @@ nav .nav-links {
 /* FOOTER SECTION */
 
 .footer-desktop {
-  background-color: #dddddd;
+  background-color: #1a191d;
   color: white;
   min-height: 250px;
   padding: 3rem 0 0 0;
