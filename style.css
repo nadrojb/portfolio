@@ -6,6 +6,7 @@ body {
   font-family: "Play", sans-serif;
   color: white;
   width: 100%;
+  background-color: #1a191d;
 }
 
 /* STANDARDISED CSS SELECTORS DESKTOP */
@@ -56,16 +57,16 @@ body {
   background-color: #1a191d;
   border: 4px solid;
   border-radius: 1px;
-  color: #2cc412;
+  color: #e23d85;
   box-shadow: 0 5px 15px 0 rgba (0, 0, 0, 0.15);
   font-size: 1.2rem;
   font-weight: 600;
-  padding: 0.8rem 3.4rem;
+  padding: 0.7rem 2.6rem;
   margin-top: 2rem;
 }
 
 .standard-button:hover {
-  border-color: #22ce04;
+  border-color: #e23d85;
   cursor: pointer;
   transform: translatey(-2.5px);
   transition: transform 0.2s ease;
@@ -73,7 +74,8 @@ body {
 .standard-button:active {
   scale: 0.95;
   transform: 0.5 ease;
-  background-color: #1648ffda;
+  border-color: white;
+  color: white;
 }
 
 .align-navbar {
@@ -139,6 +141,7 @@ body {
   letter-spacing: 0.2rem;
   font-weight: 700;
 }
+
 .h2-desktop {
   font-size: 2.5rem;
   letter-spacing: 0.2rem;
@@ -275,7 +278,7 @@ a .mobile-button:hover {
 
 nav {
   background-color: #1a191d;
-  box-shadow: 0px 0px 20px 0px #32ff020b;
+  box-shadow: 0px 0px 20px 0px #ffffff0b;
   position: fixed;
   width: 100%;
   z-index: 2;
@@ -301,12 +304,16 @@ nav .nav-links {
 
 .nav-links a {
   text-decoration: none;
-  color: #333333;
+  color: white;
 }
 
 .nav-links a:hover {
-  color: #1649ff;
+  color: #e23d85;
   transition: ease 0.3s;
+}
+
+.nav-desktop h2 {
+  padding-left: 1rem;
 }
 
 /* SIDE ICON SECTION */
@@ -318,10 +325,8 @@ nav .nav-links {
   display: flex;
   flex-direction: column;
   z-inex: 1;
-  background-color: #1a191d;
-  padding: 0.8rem 0.2rem;
-  border: 0;
-  border-radius: 0 5px 5px 0;
+  background-color: none;
+  padding: 0.6rem 0.1rem;
 }
 .icon-position:hover {
   scale: 1.5;
@@ -337,7 +342,7 @@ nav .nav-links {
 .hero {
   width: 100%;
   min-height: 100vh;
-  background-image: url(./img/background/background9.svg);
+  background-image: url(./img/background/Polygon\ Luminary.svg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -356,7 +361,7 @@ nav .nav-links {
   display: none;
   width: 100%;
   min-height: 100vh;
-  background-image: url(./img/background/background6.svg);
+  background-image: url(./img/background/background9.svg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -374,7 +379,7 @@ nav .nav-links {
 }
 
 .div-line {
-  border: 4px solid #ff4242;
+  border: 4px solid #e2e243;
   border-radius: 50px;
   width: 1rem;
   height: 1rem;
@@ -456,11 +461,12 @@ nav .nav-links {
 }
 
 .language {
-  background-color: rgba(153, 153, 153, 0.2);
+  background-color: #d0c3ac;
   display: inline-block;
   padding: 0.6rem 1.4rem;
   border: 0;
-  border-radius: 5px;
+  color: #2e343f;
+  border-radius: 1px;
   font-size: 0.9rem;
   font-weight: 500;
   margin: 0 0.5rem 0.5rem 0;
@@ -494,7 +500,7 @@ nav .nav-links {
 }
 
 .contact-links a {
-  color: #1649ff;
+  color: #e23d85;
   text-decoration: underline;
   font-weight: 600;
 }
@@ -503,11 +509,9 @@ nav .nav-links {
 .contact-mobile {
   display: none;
   width: 100%;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-color: #1a191d;
   padding-top: 4rem;
   padding-bottom: 4rem;
-  background-image: url(./img/background/background6.svg);
 }
 
 /* FOOTER SECTION */
