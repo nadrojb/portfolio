@@ -468,16 +468,6 @@ nav .nav-links {
   margin: 0 0.5rem 0.5rem 0;
 }
 
-/* .project-align-tablet {
-  
-    margin: 0 auto;
-    max-width: 100%;
-    width: 900px;
-    padding: 0 1rem;
-  } */
-
-/* PROJECT MOBILE */
-
 .project-mobile {
   display: none;
   padding-bottom: 2rem;
@@ -561,6 +551,49 @@ i:hover {
   color: white;
   min-height: 250px;
   padding: 3rem 0 0 0;
+}
+
+.side-bar-container {
+  position: relative;
+}
+
+.side-bar {
+  z-index: 3;
+  height: 100vh;
+  background-color: #1a191d;
+  width: 100%;
+  position: fixed;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.visible {
+  visibility: visible;
+}
+
+.side-bar ul {
+  margin-top: 80px;
+  padding: 0;
+}
+
+.side-bar li {
+  list-style: none;
+  text-align: center;
+  line-height: 90px;
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+
+.close-btn {
+  margin: 20px;
+  float: right;
+}
+
+.close-btn:active {
+  scale: 0.8;
+  transition: 0.2s ease;
 }
 
 /* MEDIA QUERY SECTION */

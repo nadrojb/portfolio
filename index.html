@@ -24,6 +24,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <script src="./script.js" defer></script>
   </head>
   <body>
     <nav class="nav-desktop">
@@ -57,9 +58,22 @@
               width="50px"
           /></a>
         </div>
-        <i class="fa-solid fa-bars fa-xl" style="color: #333333"></i>
+        <i class="fa-solid fa-bars fa-xl hamburger" style="color: white"></i>
       </div>
     </nav>
+    <div class="side-bar-container">
+
+      <div id="side-nav" class="side-bar hidden">
+        <div class="close-btn close-btn"><i class="fa-solid fa-x fa-xl" style="color: #ffffff;"></i></div>
+        <ul>
+          <li><a href="#home-mobile" class="side-menu-link">HOME</a></li>
+          <li><a href="#about-mobile" class="side-menu-link">ABOUT</a></li>
+          <li><a href="#projects-mobile" class="side-menu-link">PROJECTS</a></li>
+          <li><a href="#contact-mobile" class="side-menu-link">CONTACT</a></li>
+        </ul>
+      </div>
+
+    </div>
     <section class="side-icons relative">
       <div class="absolute icon-position">
         <a
@@ -81,7 +95,7 @@
     <section id="home" class="hero hero-padding-desktop hero-desktop">
       <div class="heading-align">
         <div>
-          <h1 class="h1-desktop">MY NAME IS JORDAN BREWER</h1>
+          <h1 class="h1-desktop">HI, MY NAME IS JORDAN BREWER</h1>
           <p class="p-align header-p">
             Welcome to my portfolio website, I'm an IO Academy, Full Stack Track
             student. Check out some of my projects below.
@@ -98,7 +112,7 @@
     <section id="home-mobile" class="hero-padding-mobile hero-mobile">
       <div class="heading-align">
         <div>
-          <h1 class="h1-mobile">MY NAME IS JORDAN</h1>
+          <h1 class="h1-mobile">HI, MY NAME IS JORDAN</h1>
           <p class="p-align mobile-p">
             Welcome to my portfolio website, I'm an IO Academy, Full Stack Track
             student. Check out some of my projects below.
@@ -167,7 +181,7 @@
         </div>
       </div>
     </section>
-    <section id="about" class="about-me about-me-mobile">
+    <section id="about-mobile" class="about-me about-me-mobile">
       <div class="about-me-header heading-align">
         <h2 class="h2-mobile">ABOUT ME</h2>
         <div class="div-line header-p"></div>
