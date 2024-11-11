@@ -424,6 +424,10 @@ nav .nav-links {
 
 /* PROJECTS SECTION */
 
+.project-container {
+  margin-bottom: 60px;
+}
+
 .project-desktop {
   padding-top: 5rem;
   padding-bottom: 2.5rem;
@@ -655,7 +659,7 @@ i:hover {
   .absolute-topbtn-mobile {
     display: block;
     right: 1.5rem;
-  bottom: 2rem;
+    bottom: 2rem;
   }
 }
 
