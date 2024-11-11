@@ -495,13 +495,27 @@ nav .nav-links {
   font-weight: 600;
 }
 
-/* CONTACT SECTION MOBILE */
 .contact-mobile {
   display: none;
   width: 100%;
   background-color: #1a191d;
   padding-top: 4rem;
   padding-bottom: 4rem;
+}
+
+#mobile-email {
+  color: #e23d85;
+  text-decoration: underline;
+}
+#mobile-email:hover {
+  cursor: pointer;
+}
+#desktop-email {
+  color: #e23d85;
+  text-decoration: underline;
+}
+#desktop-email:hover {
+  cursor: pointer;
 }
 
 /* FOOTER SECTION */
