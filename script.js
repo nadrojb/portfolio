@@ -32,7 +32,7 @@ links.forEach((link) => {
 
 desktopEmail.addEventListener("click", () => {
   navigator.clipboard.writeText("jordanmilesbrewer@outlook.com");
-  desktopEmail.textContent = "Email copied to clipboard";
+  desktopEmail.textContent = "copied";
   desktopEmail.style.color = "yellow";
   setTimeout(() => {
     desktopEmail.textContent = "jordanmilesbrewer@outlook.com";
@@ -46,7 +46,7 @@ function ChangeEmailTextToOriginal(desktopEmail) {
 mobileEmail.addEventListener("click", () => {
   navigator.clipboard.writeText("jordanmilesbrewer@outlook.com");
   mobileEmail.style.color = "yellow";
-  mobileEmail.textContent = "Email copied to clipboard";
+  mobileEmail.textContent = "copied";
   setTimeout(() => {
     mobileEmail.textContent = "jordanmilesbrewer@outlook.com";
     mobileEmail.style.color = "#e23d85";
